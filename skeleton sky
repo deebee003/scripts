@@ -1,0 +1,84 @@
+sigma1 = "http://www.roblox.com/asset/?id=169585459"
+sigma2 = "http://www.roblox.com/asset/?id=169585475"
+sigma3 = "http://www.roblox.com/asset/?id=169585485"
+sigma4 = "http://www.roblox.com/asset/?id=169585502"
+sigma5 = "http://www.roblox.com/asset/?id=169585515"
+sigma6 = "http://www.roblox.com/asset/?id=169585502"
+sigma7 = "http://www.roblox.com/asset/?id=169585485"
+sigma8 = "http://www.roblox.com/asset/?id=169585475"
+
+ootis = Instance.new("Sound", workspace)
+ootis.Name = "Spooky"
+ootis.SoundId = "rbxassetid://71208882022079"
+ootis.Volume = 2
+ootis.Looped = true
+ootis.Pitch = 0.1
+ootis:Play()
+
+by = Instance.new("Sky", game.Lighting)
+by.SkyboxBk = sigma1
+by.SkyboxDn = sigma1
+by.SkyboxFt = sigma1
+by.SkyboxLf = sigma1
+by.SkyboxRt = sigma1
+by.SkyboxUp = sigma1
+
+
+while true do
+    by.SkyboxBk = sigma1
+    by.SkyboxDn = sigma1
+    by.SkyboxFt = sigma1
+    by.SkyboxLf = sigma1
+    by.SkyboxRt = sigma1
+    by.SkyboxUp = sigma1
+    wait(0.15)
+    by.SkyboxBk = sigma2
+    by.SkyboxDn = sigma2
+    by.SkyboxFt = sigma2
+    by.SkyboxLf = sigma2
+    by.SkyboxRt = sigma2
+    by.SkyboxUp = sigma2
+    wait(0.15)
+    by.SkyboxBk = sigma3
+    by.SkyboxDn = sigma3
+    by.SkyboxFt = sigma3
+    by.SkyboxLf = sigma3
+    by.SkyboxRt = sigma3
+    by.SkyboxUp = sigma3
+    wait(0.15)
+    by.SkyboxBk = sigma4
+    by.SkyboxDn = sigma4
+    by.SkyboxFt = sigma4
+    by.SkyboxLf = sigma4
+    by.SkyboxRt = sigma4
+    by.SkyboxUp = sigma4
+    wait(0.15)
+    by.SkyboxBk = sigma5
+    by.SkyboxDn = sigma5
+    by.SkyboxFt = sigma5
+    by.SkyboxLf = sigma5
+    by.SkyboxRt = sigma5
+    by.SkyboxUp = sigma5
+    wait(0.15)
+    by.SkyboxBk = sigma6
+    by.SkyboxDn = sigma6
+    by.SkyboxFt = sigma6
+    by.SkyboxLf = sigma6
+    by.SkyboxRt = sigma6
+    by.SkyboxUp = sigma6
+    wait(0.15)
+    by.SkyboxBk = sigma7
+    by.SkyboxDn = sigma7
+    by.SkyboxFt = sigma7
+    by.SkyboxLf = sigma7
+    by.SkyboxRt = sigma7
+    by.SkyboxUp = sigma7
+    wait(0.15)
+    by.SkyboxBk = sigma8
+    by.SkyboxDn = sigma8
+    by.SkyboxFt = sigma8
+    by.SkyboxLf = sigma8
+    by.SkyboxRt = sigma8
+    by.SkyboxUp = sigma8
+    wait(0.15)
+end
